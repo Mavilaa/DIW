@@ -14,8 +14,7 @@ turísticos, informações sobre a cidade e dicas para visitantes.
 
 ## Wireframe
 
-![Wireframe do projeto](public/wireframe.png)
-
+![Wireframe do projeto](fotos/wireframe.png)
 ## Home-page
 
-![Print da home-page](public/homepage.png)
+![Print da home-page](fotos/homepage.png)
