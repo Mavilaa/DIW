@@ -1,46 +1,34 @@
 var nome = prompt("Qual o seu nome?");
 
+var quantidade_de_despesas = NaN;
+var renda = NaN;
 
-while (isNaN(quantidade_de_despesas) && isNaN(renda)) {
-    var quantidade_de_despesas = prompt("Qual a sua quantidade de despesas");
-    var renda = prompt("Qual a sua renda mensal?");
-    renda = Number(renda);
-    quantidade_de_despesas = Number(quantidade_de_despesas);
-    if (quantidade_de_despesas < 1) {
-
-        quantidade_de_despesas = 1;
-
-    }
-    else if (quantidade_de_despesas > 5) {
-
-        quantidade_de_despesas = 5;
-
-    }
+// repete ate as duas respostas serem numeros
+while (isNaN(quantidade_de_despesas) || isNaN(renda)) {
+    quantidade_de_despesas = Number(prompt("Qual a sua quantidade de despesas"));
+    renda = Number(prompt("Qual a sua renda mensal?"));
 }
 
+if (quantidade_de_despesas < 1) {
 
+    quantidade_de_despesas = 1;
 
-    while (isNaN(quantidade_de_despesas) && isNaN(renda)) {
-        var quantidade_de_despesas = prompt("Qual a sua quantidade de despesas");
-        var renda = parseFloat(prompt("Qual a sua renda mensal?"));
-        quantidade_de_despesas = Number(quantidade_de_despesas);
-        if (quantidade_de_despesas < 1) {
-    
-            quantidade_de_despesas = 1;
-    
-        }
-        else if (quantidade_de_despesas > 5) {
-    
-            quantidade_de_despesas = 5;
-    
-        }
-    }
-    
+}
+else if (quantidade_de_despesas > 5) {
+
+    quantidade_de_despesas = 5;
+
+}
+
 let total = 0;
 
 for (let i = 0; i < quantidade_de_despesas; i++) { 
 
     var despesa = parseFloat(prompt("Digite sua despesa"));
+
+    while (isNaN(despesa)) {
+        despesa = parseFloat(prompt("Valor invalido. Digite sua despesa"));
+    }
 
     total += despesa;
 
