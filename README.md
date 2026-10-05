@@ -1,6 +1,6 @@
 # DIW
 
-Atividades de Desenvolvimento de Interfaces Web (PUC Minas, 2026/2).
+Atividades de Desenvolvimento de Interfaces Web (PUC Minas, 2026/2). Sites no ar: https://mavilaa.github.io/DIW/
 Gustavo Martins de Ávila — 912341
 
 | Semana | O que é | Site |
