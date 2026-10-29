@@ -1,0 +1,193 @@
+
+.logo {
+    font-weight: bold;
+    color: #1b7a3e;
+    border: 2px solid #1b7a3e;
+    padding: 4px 10px;
+}
+
+.titulo-secao {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333333;
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1b7a3e;
+}
+
+.rodape {
+    color: gray;
+    font-size: 14px;
+}
+
+a {
+    color: #1b7a3e;
+}
+
+.carrossel-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carrossel-legenda {
+    padding: 16px 16px 40px 16px;
+    text-align: center;
+    background-color: #e8f3ec;
+}
+
+.carrossel-legenda h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.carrossel-legenda a {
+    text-decoration: none;
+    color: #1b7a3e;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #333333;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.card-title a:hover {
+    color: #1b7a3e;
+}
+
+.card-cidade {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.card-preco {
+    font-weight: bold;
+    color: #1b7a3e;
+    margin: 0px;
+}
+
+.autoria p {
+    margin-bottom: 4px;
+}
+
+.autoria-pessoa {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.autoria-icone {
+    font-size: 48px;
+    color: #333333;
+    line-height: 1;
+}
+
+.redes {
+    margin-top: 10px;
+}
+
+.redes a {
+    font-size: 22px;
+    margin-left: 8px;
+}
+
+.galeria {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.galeria-fotos {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 12px;
+    scroll-behavior: smooth;
+    flex: 1;
+    min-width: 0;
+}
+
+.foto-atracao {
+    min-width: 280px;
+    max-width: 280px;
+}
+
+.galeria-seta {
+    flex-shrink: 0;
+}
+
+.detalhe-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.detalhe-titulo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.detalhe-cidade {
+    color: gray;
+    font-size: 18px;
+}
+
+.ficha {
+    list-style-type: none;
+    padding: 12px 16px;
+    border-left: 4px solid #1b7a3e;
+}
+
+.ficha li {
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 576px) {
+
+    .carrossel-img {
+        height: 220px;
+    }
+
+    .carrossel-legenda h3 {
+        font-size: 18px;
+    }
+
+    .carrossel-legenda p {
+        font-size: 14px;
+    }
+
+    .titulo-secao {
+        font-size: 20px;
+    }
+
+    .detalhe-titulo {
+        font-size: 24px;
+    }
+
+    .galeria-seta {
+        display: none;
+    }
+
+    .foto-atracao {
+        min-width: 240px;
+        max-width: 240px;
+    }
+}
